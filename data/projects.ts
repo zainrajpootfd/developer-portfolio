@@ -54,28 +54,28 @@ export const projects: Project[] = [
     liveUrl: "https://the-wild-oasis-website-rouge.vercel.app/",
     featured: false,
   },
-  {
-    id: 5,
-    title: "Portfolio Website",
-    description:
-      "A modern, responsive portfolio website with smooth animations, dark mode support, and optimized performance.",
-    image: "/placeholder.svg?height=250&width=400",
-    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
-    githubUrl: "https://github.com/zainali/portfolio",
-    liveUrl: "https://zain-ali-portfolio.vercel.app",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Chat Application",
-    description:
-      "Real-time chat application with private messaging, group chats, file sharing, and emoji support using WebSocket technology.",
-    image: "/placeholder.svg?height=250&width=400",
-    technologies: ["React", "Node.js", "Socket.io", "Redis", "MongoDB"],
-    githubUrl: "https://github.com/zainali/chat-app",
-    liveUrl: "https://chat-app-demo.vercel.app",
-    featured: false,
-  },
+  // {
+  //   id: 5,
+  //   title: "Portfolio Website",
+  //   description:
+  //     "A modern, responsive portfolio website with smooth animations, dark mode support, and optimized performance.",
+  //   image: "/placeholder.svg?height=250&width=400",
+  //   technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+  //   githubUrl: "https://github.com/zainali/portfolio",
+  //   liveUrl: "https://zain-ali-portfolio.vercel.app",
+  //   featured: false,
+  // },
+  // {
+  //   id: 6,
+  //   title: "Chat Application",
+  //   description:
+  //     "Real-time chat application with private messaging, group chats, file sharing, and emoji support using WebSocket technology.",
+  //   image: "/placeholder.svg?height=250&width=400",
+  //   technologies: ["React", "Node.js", "Socket.io", "Redis", "MongoDB"],
+  //   githubUrl: "https://github.com/zainali/chat-app",
+  //   liveUrl: "https://chat-app-demo.vercel.app",
+  //   featured: false,
+  // },
 ];
 
 export const getFeaturedProjects = () =>
