@@ -146,13 +146,15 @@ export default function Hero() {
           ))}
         </motion.div>
 
-        <motion.div
+        <motion.a
+          href="#projects"
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer"
         >
-          <ArrowDown className="text-gray-400" size={24} />
-        </motion.div>
+          <ArrowDown className="text-gray-400 hover:text-white transition-colors scroll-smooth" size={24} />
+        </motion.a>
+
       </div>
     </section>
   );
